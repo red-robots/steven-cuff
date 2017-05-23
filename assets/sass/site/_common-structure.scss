@@ -1,0 +1,244 @@
+* { -webkit-hyphens: none; }
+
+div {
+	
+	@media screen and (min-width: $tabwidth) {
+
+	}
+	@media screen and (min-width: $deskwidth) {
+
+	}
+}
+.clear {clear: both;}
+.wrapper {
+	width: 100%;
+	margin: 0px auto;
+	padding: 20px;
+	
+	@media screen and (min-width: $tabwidth) {
+		width: 100%;
+	}
+	@media screen and (min-width: $deskwidth) {
+		width: 90%;
+		padding: 0px;
+	}
+}
+header#masthead {
+	margin: 0 0 100px 0;
+}
+.header-right {
+	width: 100%;
+	@media screen and (min-width: $tabwidth) {
+		width: 70%;
+		float: right;
+	}
+	@media screen and (min-width: $deskwidth) {
+		width: 80%;
+	}
+}
+.site-description {
+	width: 100%;
+	float: right;
+	margin: 30px 0 0 0;
+	text-align: center;
+	h2 {
+		width: 100%;
+		float: right;
+		font-size: 18px;
+		font-family: $font-heading;
+		color: #fff;
+		@media screen and (min-width: $tabwidth) {
+			width: 60%;
+			text-align: right;
+			font-size: 12px;
+		}
+		@media screen and (min-width: $deskwidth) {
+			font-size: 18px;
+		}
+	}
+}
+.content-area {
+	width: 100%;
+	margin: 0px auto;
+	
+	@media screen and (min-width: $tabwidth) {
+		width: 66%;
+		float: left;
+		margin: 0;
+	}
+	@media screen and (min-width: $deskwidth) {
+		/*width: 1200px;*/
+	}
+}
+.content-area-full {
+	width: 100%;
+	margin: 0px auto;
+	
+	@media screen and (min-width: $tabwidth) {
+		float: left;
+		margin: 0;
+	}
+	@media screen and (min-width: $deskwidth) {
+		/*width: 1200px;*/
+	}
+}
+.widget-area {
+	width: 100%;
+	margin: 0px auto;
+	background-color: #fff;
+	padding: 2%;
+
+	ul {
+		margin: 0 0 30px 0;
+		padding: 0;
+		list-style: none;
+	}
+	a {
+		text-decoration: none;
+	}
+	.widget {
+		li {
+			margin: 0 0 15px 0;
+		}
+	}
+	
+	@media screen and (min-width: $tabwidth) {
+		width: 26%;
+		float: right;
+		margin: 0;
+	}
+	@media screen and (min-width: $deskwidth) {
+		/*width: 1200px;*/
+	}
+}
+
+/* Logo */
+.logo , h1.logo {
+	width: 160px;
+	height: 160px;
+	background-image: url(images/steven-cuff-construction.png);	
+	margin: 10px auto;
+
+	@media screen and (min-width: $tabwidth) {
+		
+		float: left;
+		margin: 10px 0 0 0;
+	}
+	@media screen and (min-width: $deskwidth) {
+		/*width: 1200px;*/
+	}
+}
+.logo a, h1.logo a {
+	width: 160px;
+	height: 160px;
+	display: block;
+	text-indent: -9000px;
+
+	@media screen and (min-width: $tabwidth) {
+		
+	}
+	@media screen and (min-width: $deskwidth) {
+		/*width: 1200px;*/
+	}
+}
+.site-header {
+	width: 100%;
+	float: left;
+	background-color: $color-light-grey;
+	border-bottom: 1px solid #fff;
+	@media screen and (min-width: $tabwidth) {
+		height: 100px;
+	}
+	@media screen and (min-width: $deskwidth) {
+		height: 100px;
+	}
+}
+.site-footer {
+	width: 100%;
+	float: left;
+	background-color: $color-light-grey;
+	clear: both;
+	color: #fff;
+	padding: 30px 0;
+	text-align: center;
+	a {
+		color: #fff;
+	}
+	@media screen and (min-width: $tabwidth) {
+		// height: 100px;
+		text-align: left;
+	}
+	@media screen and (min-width: $deskwidth) {
+		
+	}
+	.site-info {
+		width: 100%;
+		text-align: center; 
+		@media screen and (min-width: $tabwidth) {
+			width: 50%;
+			float: left;
+			text-align: left; 
+		}
+	}
+}
+#footer-icons {
+	width: auto;
+	display: inline-block;
+	@media screen and (min-width: $tabwidth) {
+		float: right;
+	}
+}
+.site-main {
+	width: 100%;
+	background-color: #fff;
+	padding: 5%;
+	overflow: hidden;
+	margin: 0 0 40px 0;
+	@media screen and (min-width: $tabwidth) {
+
+	}
+	@media screen and (min-width: $deskwidth) {
+		
+	}
+}
+article.post {
+	width: 100%;
+	float: left;
+	margin: 0 0 40px 0;
+	border-bottom: 1px solid $color-dark-grey;
+	padding: 0 0 30px 0;
+	a {
+		text-decoration: none;
+		color: $color-dark-grey;
+	}
+	.readmore {
+		width: auto;
+		display: inline-block;
+		float: right;
+		clear: both;
+		a {
+			background-color: $color-dark-grey;
+			color: #fff;
+			text-decoration: none;
+			padding: 10px 25px ;
+			&:hover {
+				background-color: $color-blue;
+			}
+		}
+	}
+	h2 {
+		font-size: 30px;
+		a {
+			color: $color-dark-grey;
+			&:hover {
+				color: $color-blue;
+			}
+		}
+	}
+	@media screen and (min-width: $tabwidth) {
+
+	}
+	@media screen and (min-width: $deskwidth) {
+		
+	}
+}
