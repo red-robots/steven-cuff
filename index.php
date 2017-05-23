@@ -14,7 +14,7 @@
 
 get_header(); ?>
 	<div id="primary" class="content-area-full">
-		<main id="main" class="site-main" role="main">
+		
 
 			<?php 
 			// Query the Post type Slides
@@ -46,7 +46,7 @@ get_header(); ?>
 				<?php endif; // end loop ?>
 			<?php wp_reset_postdata(); ?>
 
-		</main><!-- #main -->
+		
 	</div><!-- #primary -->
 <?php
 get_footer();
