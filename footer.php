@@ -30,7 +30,13 @@ sitemap | site by <a href="https://bellaworksweb.com" target="_blank">Bellaworks
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
-<?php wp_footer(); ?>
+<?php 
+
+wp_footer(); 
+
+the_field('google_analytics', 'option');
+
+?>
 
 </body>
 </html>
