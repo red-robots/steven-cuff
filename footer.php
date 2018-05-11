@@ -24,8 +24,18 @@ sitemap | site by <a href="https://bellaworksweb.com" target="_blank">Bellaworks
 			<div id="footer-icons">
 				<?php the_field('footer_icons', 'option'); ?>
 			</div>
+			<div class="clear"></div>
+			<!-- Login Box -->
 
+			<div style="background:#fff;border:2px solid #ccc;border-radius:4px;margin:20px 0 0 0;width:100%;max-width:400px;">
 
+			<div style="background:#ccc;color:#fff;font-size:1em;padding:.5em;text-align:center;">CLIENT LOGIN</div>
+
+			<iframe src="https://buildertrend.net/NewLoginFrame.aspx?builderID=2436" style="border:0px;height:200px;margin-top:1em;width:100%;" frameborder="0"></iframe>
+
+			</div>
+
+			<!-- /Login Box -->
 	</div><!-- wrapper -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
